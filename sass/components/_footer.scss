@@ -1,0 +1,155 @@
+.footer {
+    background-color: $background-footer;
+    padding: 60px 0;
+
+    @media screen and (max-width: 1199px) {
+        text-align: center;
+    }
+}
+
+.footer-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: calc(2 * $card-set-gap);
+    justify-content: center;
+
+    @media screen and (min-width: 1200px) {
+        align-items: baseline;
+        flex-wrap: nowrap;
+    }
+}
+
+.footer__main {
+    @media screen and (min-width: 768px) {
+        margin-right: 165px;
+    }
+
+
+    height: 603px;
+    margin: 0 auto;
+    background-color: var(--primary-background-color);
+}
+
+.contact {
+    font-style: normal;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+
+    transition: color $time $time-function;
+}
+
+.contact__item:not(:last-child) {
+    margin-bottom: 9px;
+
+    @media screen and (max-width: 1199px) {
+        margin-bottom: 8px;
+    }
+
+
+    &:hover,
+    &:focus {
+        color: $activ;
+    }
+}
+
+.contact--link {
+    color: $contact-footer;
+
+    &-link {
+    display: block;
+    margin-left: 137px;
+    margin-right: 137px;
+    margin-bottom: 60px;
+    text-align: center;
+    width: 206px;
+    height: 80px;
+    }
+}
+
+/* ----------------Приєнуйся соц зв'язок в підвалі --------- */
+.footer__text {
+    margin-bottom: 20px;
+    font-weight: 700;
+    line-height: 1.14;
+    text-transform: uppercase;
+    color: $up-white-text;
+}
+
+.footer-form {
+    @media screen and (min-width: 1200px) {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: center;
+        width: 570px;
+    }
+}
+
+.socialnet-list__link:hover,
+.socialnet-list__link:focus {
+    background-color: var(--accent-color);
+}
+
+.footer-team-icon {
+    width: 20px;
+    height: 20px;
+    fill: var(--white-color);
+    transition: fill, background-color 250ms var(--transition-timing-function);
+}
+
+.footer .accent {
+    color: var(--white-color);
+}
+
+.footer-form__input {
+    height: 50px;
+    width: 358px;
+    padding: 15px 0 15px 16px;
+
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    border-radius: 4px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.25;
+    color: $contact-footer;
+}
+
+.footer-form__button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 200px;
+    height: 50px;
+    padding: 0;
+    margin: 0 auto;
+
+    @media screen and (min-width: 1200px) {
+        margin-left: 12px;
+        margin-right: 0;
+    }
+
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.88;
+    letter-spacing: 0.06em;
+    color: $up-white-text;
+
+    background-color: $activ;
+    border-radius: 4px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+
+    transition: background-color $time $time-function;
+
+    &:hover,
+    &:focus {
+        background-color: $activ-button;
+    }
+}
+
+.footer-form__icon {
+    width: 24px;
+    height: 24px;
+    margin-left: 10px;
+}
