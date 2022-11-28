@@ -5,7 +5,7 @@
     padding: 60px 0;
     
     @media screen and (max-width: 1199px) {
-                text-align: center;
+       text-align: center;
     }
 }
     
@@ -16,17 +16,19 @@
     justify-content: center;
     
     @media screen and (min-width: 1200px) {
-                align-items: baseline;
+        align-items: baseline;
+        flex-wrap: nowrap;;
     }
 }
     
 .footer__main {
     @media screen and (min-width: 768px) {
-    padding-right: 165px;
+    padding-right: 0;
+    margin-right: 165px;
     }
     
     @media screen and (min-width: 1200px) {
-    padding-right: 70px;
+    margin-right: 70px;
     }
 }
     

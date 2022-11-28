@@ -1001,17 +1001,20 @@ button {
     -webkit-box-align: baseline;
         -ms-flex-align: baseline;
             align-items: baseline;
+    -ms-flex-wrap: nowrap;
+        flex-wrap: nowrap;
   }
 }
 
 @media screen and (min-width: 768px) {
   .footer__main {
-    padding-right: 165px;
+    padding-right: 0;
+    margin-right: 165px;
   }
 }
 @media screen and (min-width: 1200px) {
   .footer__main {
-    padding-right: 70px;
+    margin-right: 70px;
   }
 }
 
