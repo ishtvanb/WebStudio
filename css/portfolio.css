@@ -778,7 +778,6 @@ button {
   display: flex;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
-  gap: 60px;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
@@ -837,7 +836,7 @@ button {
   color: #2196f3;
 }
 
-/* ----------------Приєнуйся соц зв'язок в підвалі --------- */
+/* ------- Приєнуйся; соц зв'язок у футері -------- */
 .footer__text {
   margin-bottom: 20px;
   font-weight: 700;
@@ -846,10 +845,10 @@ button {
   color: #ffffff;
 }
 
-/* <!------- Приєднайся залиш свою пошту ---------------> */
+/* <!------- Приєднуйся і залиш свою пошту -------> */
 @media screen and (min-width: 1200px) {
   .footer__input {
-    margin-left: auto;
+    margin-left: 93px;
   }
 }
 
