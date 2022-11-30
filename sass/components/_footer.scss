@@ -12,6 +12,7 @@
 .footer-container {
     display: flex;
     flex-wrap: wrap;
+    gap: calc(2 * $card-set-gap);
     justify-content: center;
     
     @media screen and (min-width: 1200px) {
@@ -66,7 +67,7 @@
     }
 }
     
-        /* ------- Приєнуйся; соц зв'язок у футері -------- */
+        /* ----------------Приєнуйся соц зв'язок в підвалі --------- */
 .footer__text {
     margin-bottom: 20px;
     font-weight: 700;
@@ -75,10 +76,10 @@
     color: $up-white-text;
 }
     
-        /* <!------- Приєднуйся і залиш свою пошту -------> */
+        /* <!------- Приєднайся залиш свою пошту ---------------> */
 .footer__input {
      @media screen and (min-width: 1200px) {
-        margin-left: 93px;
+        margin-left: auto;
     }
 }
     
