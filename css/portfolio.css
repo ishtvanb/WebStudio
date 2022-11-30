@@ -778,6 +778,7 @@ button {
   display: flex;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
+  gap: 60px;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
@@ -787,20 +788,17 @@ button {
     -webkit-box-align: baseline;
         -ms-flex-align: baseline;
             align-items: baseline;
-    -ms-flex-wrap: nowrap;
-        flex-wrap: nowrap;
   }
 }
 
 @media screen and (min-width: 768px) {
   .footer__main {
-    padding-right: 0;
     margin-right: 165px;
   }
 }
 @media screen and (min-width: 1200px) {
   .footer__main {
-    margin-right: 70px;
+    padding-right: 70px;
   }
 }
 
@@ -836,7 +834,7 @@ button {
   color: #2196f3;
 }
 
-/* ------- Приєнуйся; соц зв'язок у футері -------- */
+/* ----------------Приєнуйся соц зв'язок в підвалі --------- */
 .footer__text {
   margin-bottom: 20px;
   font-weight: 700;
@@ -845,10 +843,10 @@ button {
   color: #ffffff;
 }
 
-/* <!------- Приєднуйся і залиш свою пошту -------> */
+/* <!------- Приєднайся залиш свою пошту ---------------> */
 @media screen and (min-width: 1200px) {
   .footer__input {
-    margin-left: 93px;
+    margin-left: auto;
   }
 }
 
